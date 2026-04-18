@@ -23,7 +23,7 @@ function fetchw(location) {
         .then(data => {
             if (data.cod !== 200) {
             
-                locele.textContent = "City not found ❌";
+                locele.textContent = "City not found ";
                 tempele.textContent = "";
                 descele.textContent = "";
                 console.error(data.message);

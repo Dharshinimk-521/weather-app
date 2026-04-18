@@ -1,2 +1,0 @@
-const apikey='';
-const apiUrl=
